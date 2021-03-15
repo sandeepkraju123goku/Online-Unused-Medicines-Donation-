@@ -1,0 +1,120 @@
+body{
+    background-color: rgba(241, 0, 0, 0.096);
+    font-family: cursive;
+    margin: 0;
+}
+
+header{
+    width:95%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.icon{
+    height: 80px;
+    width: 80px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsBLx7qIWCfwHHdK9uM7qj6cLUd3IKRN3nKA&usqp=CAU");
+    float: left;
+    background-position: center;
+    background-size:cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.head{
+    float:left;
+    color: rgb(14, 12, 12);
+    font-size: 13px;
+}
+
+nav{
+    float: right;
+}
+
+li a:link {
+    text-decoration: none;
+  }
+  
+ li a:visited {
+    text-decoration: none;
+  }
+  
+ li a:hover {
+    text-decoration: underline;
+  }
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+li a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table,
+td,th {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+table{
+  margin-top: 4%;
+  margin-left:32%;
+}
+
+.i{
+    height:155px;
+    width: 170px;
+    left:12%;
+    top:35%;
+    position: absolute;
+    overflow: visible;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/a3.png");
+  }
+  
+  .ii{
+    height:170px;
+    width: 170px;
+    left:200%;
+    top:108%;
+    position: absolute;
+    overflow: visible;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/med1.png");
+  }
+  
+  .iii{
+    height:345px;
+    width: 270px;
+    left:300%;
+    top:-200%;
+    position: absolute;
+    overflow: visible;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/med3.png");
+  }
+
+  p{
+    font-size:16px;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0.75rem 0;
+    font-weight: normal;
+    text-align: center;
+  }

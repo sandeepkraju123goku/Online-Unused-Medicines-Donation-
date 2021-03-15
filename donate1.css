@@ -1,0 +1,197 @@
+body{
+    background-color: rgba(241, 0, 0, 0.096);
+    font-family: cursive;
+    margin: 0;
+}
+
+header{
+    width:95%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.icon{
+    height: 80px;
+    width: 80px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsBLx7qIWCfwHHdK9uM7qj6cLUd3IKRN3nKA&usqp=CAU");
+    float: left;
+    background-position: center;
+    background-size:cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.head{
+    float:left;
+    color: rgb(14, 12, 12);
+    font-size: 13px;
+}
+
+nav{
+    float: right;
+}
+
+li a:link {
+    text-decoration: none;
+  }
+  
+ li a:visited {
+    text-decoration: none;
+  }
+  
+ li a:hover {
+    text-decoration: underline;
+  }
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+li a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container1{
+     top: 35%;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+showcase{
+  top: 62%;
+}
+
+showcase h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+  font-weight:800;
+  padding-bottom: 0;
+}
+
+showcase h3{
+    color: #110f0f;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+showcase h2{
+  color: #110f0f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+showcase p{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 0 0;
+  padding: 0 0;
+ }
+
+.categary{
+    color: rgb(14, 12, 12);
+    margin-top: 3%;
+    display: flex;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+}
+
+h4{
+    font-size: 15px;
+    margin: auto; 
+    font-weight: lighter; 
+}
+
+.grid{
+  display: grid;
+  height: 70vh;
+}
+
+.lefthalf{
+  background-color: #2191f7;
+  grid-column: 1;
+  padding: 20px 20px;
+}
+
+.righthalf{
+  background-color:#2191f7;
+  grid-column: 2;
+  padding: 20px 20px;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translate(0, -50%);
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0 0 0.75rem 0;
+  color: white;
+}
+
+p{
+  font-size:16px;
+  color: white;
+  margin: 0 0 0.75rem 0;
+  padding: 20px 20px;
+  font-weight: normal;
+}
+
+.i{
+  height:155px;
+  width: 170px;
+  left:25%;
+  top:18%;
+  position: absolute;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("img/pills1.png");
+}
+
+.ii{
+  height:170px;
+  width: 170px;
+  left:4%;
+  top:138%;
+  position: absolute;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("img/med1.png");
+}
+
+.iii{
+  height:345px;
+  width: 270px;
+  left:80%;
+  top:100%;
+  position: absolute;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("img/med3.png");
+}

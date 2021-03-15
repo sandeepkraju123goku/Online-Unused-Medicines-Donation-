@@ -1,0 +1,152 @@
+body{
+    background-color: rgba(241, 0, 0, 0.096);
+    font-family: cursive;
+    margin: 0;
+}
+
+header{
+    width:95%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.icon{
+    height: 80px;
+    width: 80px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsBLx7qIWCfwHHdK9uM7qj6cLUd3IKRN3nKA&usqp=CAU");
+    float: left;
+    background-position: center;
+    background-size:cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.head{
+    float:left;
+    color: rgb(14, 12, 12);
+    font-size: 13px;
+}
+
+nav{
+    float: right;
+}
+
+li a:link {
+    text-decoration: none;
+  }
+  
+ li a:visited {
+    text-decoration: none;
+  }
+  
+ li a:hover {
+    text-decoration: underline;
+  }
+  
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+li a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.faq{
+    height: 380;
+    width: 80%;
+    margin: 0px 130px;
+    background-color:f2f2f2;
+    position: relative;
+    left: 7%;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin:0 0;
+    font-weight: 600;
+}
+
+.accordion {
+    background-color: #f2f2f2;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: cursive;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #f2f2f2;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 14px;
+  }
+
+  .accordion:after {
+    content: '+'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  
+  .active:after {
+    content: "-"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .i{
+    height:350px;
+    width: 200px;
+    left:0%;
+    top:26%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/2.png");
+  }
+
+  .ii{
+    height:350px;
+    width: 300px;
+    left:70%;
+    top:76%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("img/010.png");
+  }
+
+  .iii{
+    height:350px;
+    width: 300px;
+    left:50%;
+    top:76%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("img/010.png");
+  }

@@ -1,0 +1,234 @@
+body{
+  background-color: rgba(241, 0, 0, 0.096);
+  font-family: cursive;
+  margin: 0;
+}
+
+#Home {background-color: rgba(241, 0, 0, 0.096);}
+#News {background-color: rgba(241, 0, 0, 0.096);}
+
+header{
+  width:95%;
+  margin: auto;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.icon{
+  height: 80px;
+  width: 80px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsBLx7qIWCfwHHdK9uM7qj6cLUd3IKRN3nKA&usqp=CAU");
+  float: left;
+  background-position: center;
+  background-size:cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.head{
+  float:left;
+  color: rgb(14, 12, 12);
+  font-size: 13px;
+}
+
+.tablink {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+  
+    height: 100%;
+  }
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
+  
+  h3{
+    color: lightcoral;
+  }
+
+  .tabcontent{
+    top:25%;
+  }
+
+  .container{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container{
+    background: #fff;
+    width: 350px;
+    padding: 15px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  
+  .container .text{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+  }
+  
+  .container form{
+    margin-top: -20px;
+  }
+  
+  .container form .data{
+    height: 35px;
+    width: 100%;
+    margin: 35px 0;
+  }
+  form .data label{
+    font-size: 16px;
+    color: black;
+  }
+  form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid silver;
+  }
+  form .data input:focus{
+    border-color: #3498db;
+    border-bottom-width: 2px;
+  }
+
+  form .btn{
+    margin: 20px 0;
+    height: 35px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  form .btn .inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    transition: all 0.4s;
+  }
+  form .btn:hover .inner{
+    left: 0;
+  }
+  form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+ 
+  table,
+  td,th {
+      border: 1px solid #333;
+      border-collapse: collapse;
+      padding: 10px;
+  }
+  
+  thead {
+      background-color: #333;
+      color: #fff;
+  }
+
+  table{
+    margin-top: 4%;
+    margin-left:32%;
+}
+
+.i{
+  height:400px;
+  width: 250px;
+  left:5%;
+  top:30%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("img/q2.png");
+}
+
+.ii{
+  height:350px;
+  width: 300px;
+  left:70%;
+  top:76%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("img/q3.png");
+}
+
+.iii{
+  height:150px;
+  width: 100px;
+  left:75%;
+
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("img/a2.png");
+}
+
+p{
+  top: 25px;
+  text-align: center;
+  color: #333;
+}

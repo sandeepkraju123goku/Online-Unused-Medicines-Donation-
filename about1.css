@@ -1,0 +1,143 @@
+body{
+    background-color: rgba(241, 0, 0, 0.096);
+    font-family: cursive;
+    margin: 0;
+}
+
+header{
+    width:95%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.icon{
+    height: 80px;
+    width: 80px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsBLx7qIWCfwHHdK9uM7qj6cLUd3IKRN3nKA&usqp=CAU");
+    float: left;
+    background-position: center;
+    background-size:cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.head{
+    float:left;
+    color: rgb(14, 12, 12);
+    font-size: 13px;
+}
+
+nav{
+    float: right;
+}
+
+li a:link {
+    text-decoration: none;
+  }
+  
+ li a:visited {
+    text-decoration: none;
+  }
+  
+ li a:hover {
+    text-decoration: underline;
+  }
+  
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+li a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.i{
+    height:650px;
+    width: 250px;
+    left:81%;
+    top:5%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/med4.png");
+  }
+
+h1{
+      text-align: center;
+      font-size: 45px;
+      font-weight: 530;
+      line-height: 67px;
+      margin: 0 auto;
+      position: relative;
+}
+
+p{
+      text-align:center;
+      font-size: 16px;
+      line-height: 25px;
+}
+
+.container1{
+    top: 40%;
+   width: 60%;
+   margin: auto;
+   overflow: hidden;
+   margin-top: 1%;
+}
+
+.categary{
+   color: rgb(14, 12, 12);
+   margin-top: 3%;
+   display: flex;
+   text-align: center;
+}
+
+img {
+   width: 150px;
+   height: 150px;
+   border-radius: 25%;
+}
+
+h4{
+   font-size: 25px;
+   margin: auto; 
+   font-weight: lighter; 
+   color: blanchedalmond;
+}
+
+.register{
+    background-color: black;
+    margin: 20px;
+    height: 265px;
+    width: 1550px;
+    border-radius: 25px;
+}
+
+.Box{
+    background-color: black;
+    margin: 20px;
+    height: 265px;
+    width: 1500px;
+    border-radius: 25px;
+}
+
+.records{
+    background-color: black;
+    margin: 20px;
+    height: 265px;
+    width: 1500px;
+    border-radius: 25px;
+}
+
+showcase p{
+    color: thistle;
+    text-align:inherit;
+    padding-left: 15px;
+    padding-right: 15px;
+}
